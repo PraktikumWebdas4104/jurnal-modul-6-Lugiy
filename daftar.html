@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Registrasi</title>
+</head>
+<body>
+	<h2>Form</h2>
+
+	<form action="proses.php" method="POST">
+		<table>
+			<h1>PENDAFTARAN</h1>
+		<tr>
+			<td>Nama </td>
+			<td><input type="text" name="nama"></td>
+		</tr>
+		<tr>
+			<td>NIM</td>
+			<td><input type="number" name="nim"></td>
+		</tr>
+		<tr>
+			<td>Kelas</td>
+			<td><input type="radio" name="kelas">D3MI 4101</td>
+			<td><input type="radio" name="kelas">D3MI 4102</td>
+			<td><input type="radio" name="kelas">D3MI 4103</td>
+			<td><input type="radio" name="kelas">D3MI 4104</td>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin</td>
+			<td><input type="radio" name="jk">Laki-laki</td>
+			<td><input type="radio" name="jk">Perempuan</td>
+		</tr>
+		<tr>
+			<td>Hobi</td>
+			<td><input type="checkbox" name="hobi">Olah Raga</td>
+			<td><input type="checkbox" name="hobi">Musik</td>
+			<td><input type="checkbox" name="hobi">Otomotif</td>
+			<td><input type="checkbox" name="hobi">Games</td>
+			<td><input type="checkbox" name="hobi">Tidur</td>
+		</tr>
+		<tr>
+			<td>Fakultas</td>
+			<td><select name="fakultas">
+				<option value=""></option>
+				<option value="1">Fakultas Ilmu Terapan</option>
+				<option value="2">Fakultas Ilmu Ekonomi Bisnis</option>
+				<option value="3">Fakultas Komunikasi Bisnis</option>
+			</select>	
+			</td>
+		</tr>
+		<tr>
+				<td>Alamat :</td>
+				<td><textarea name="alamat"></textarea></td>
+			</tr>
+		<tr>
+			<td><input type="submit" name="kirim" value="Kirim"></td>
+		</tr>
+
+		</table>
+	</form>
+</body>
+</html>
